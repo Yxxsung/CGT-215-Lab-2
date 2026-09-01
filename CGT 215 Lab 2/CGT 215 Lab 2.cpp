@@ -28,6 +28,8 @@ int main()
     cout << "B = " << B << endl;
 
     //Finding X and then displaying it
-    X = 
+    X = -(B) / A;
+    cout << "The value of X is " << X;
+    //Testing Values 3 and 9 should output -3
 }
 

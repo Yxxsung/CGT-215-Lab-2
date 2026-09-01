@@ -1,20 +1,33 @@
-// CGT 215 Lab 2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Sophia Alexander
+// CGT 215 Lab 2
+// 09/01/26
 
 #include <iostream>
 
+//tells the complier you want to be in standard library namespace, allowing use of cout and cin
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    //variable declarations
+    float A;
+    float B;
+    float X;
+
+    //Initial Welcome Prompt and Purpose Statement
+    cout << "Welcome! I am trying to solve Ax + B for x, but I need values to get started! Can you help? " << endl;
+
+    //Prompts for float A
+    cout << "Please enter the desired value for A: ";
+    cin >> A;
+    cout << "A = " << A << endl;
+
+    //B = statement and output
+    cout << "Please enter a vlaue for B: ";
+    cin >> B;
+    cout << "B = " << B << endl;
+
+    //Finding X and then displaying it
+    X = 
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
